@@ -19,17 +19,17 @@
 					<hr>
 					<div class="container">
 					  <div class="row">
-						<div class="col-sm">
+						<div class="col-sm" id="positive">
 							<i class="bi bi-emoji-smile" style='font-size:30px;color:green'></i>
-							<br>{{positive}}%
+							<br><p>{{positive}}%</p>
 						</div>
-						<div class="col-sm">
+						<div class="col-sm" id="neutral">
 						  <i class="bi bi-emoji-neutral" style='font-size:30px;color:grey'></i>
-							<br>{{neutral}}%
+							<br><p>{{neutral}}%</p>
 						</div>
-						<div class="col-sm">
+						<div class="col-sm" id="negative">
 						  <i class="bi bi-emoji-frown" style='font-size:30px;color:red'></i>
-							<br>{{negative}}%
+							<br><p>{{negative}}%</p>
 						</div>
 					  </div>
 					</div>
@@ -38,7 +38,7 @@
 					<hr>
 					<div class="form-outline mb-4">
 					  <label class="font-weight-bold form-label" for="sentence">Result : </label>
-					  <p class="font-weight-bold"><b>{{result}}</b></p>
+					  <p class="font-weight-bold" id="result"><b>{{result}}</b></p>
 					</div>
 					
 					<!-- THE SENTENCE -->
